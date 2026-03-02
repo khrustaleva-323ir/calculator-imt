@@ -1,0 +1,9 @@
+Таблица имт:
+- id (INT, PK)
+- date (DATE)
+- amount (DECIMAL)
+- category_id (INT, FK)
+- type (ENUM: income, expense)
+Таблица categories:
+- id (INT, PK)
+- name (VARCHAR)
